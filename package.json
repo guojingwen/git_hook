@@ -7,6 +7,10 @@
     "test": "echo \"success by mock\"",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "src/**/*.{js,ts,vue}": "echo 'todo eslint'",
+    "src/**/*.{css,scss,html,vue}": "echo 'todo stylelint'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guojingwen/git_hook.git"
@@ -21,6 +25,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1"
   }
 }
