@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/guojingwen/git_hook#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "husky": "^8.0.0"
   }
 }
